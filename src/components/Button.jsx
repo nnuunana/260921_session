@@ -12,13 +12,15 @@ export default function Button({
       className="
         w-full
         px-4 py-3
-        rounded-lg
-        text-sm text-white
-        bg-[#4A4A4A]
-        hover:bg-[#3D3D3D]
-        active:bg-[#333333]
+        rounded-xl
+        body-lg
+        text-white
+        bg-primary-500
+        hover:bg-primary-600
+        active:bg-primary-700
         disabled:cursor-not-allowed
-        disabled:bg-[#CCCCCC]
+        disabled:bg-neutral-400
+        disabled:text-neutral-100
       "
     >
       {text}

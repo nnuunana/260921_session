@@ -16,23 +16,23 @@ function Input({
       disabled={disabled}
       className={`
         w-full
-        rounded-lg
-        px-4
-        py-3
-        text-sm
+        px-6 py-3
+        rounded-xl
+        body-sm
         text-white
-        placeholder:text-[#E5E5E5]
+        placeholder:text-primary-100
         outline-none
         transition
 
-        ${isFilled ? "bg-[#666666]" : "bg-[#858585]"}
+        ${isFilled ? "bg-primary-600" : "bg-primary-500"}
 
-        focus:bg-[#A6A6A6]
+        focus:bg-primary-300
         focus:ring-2
-        focus:ring-[#555555]
+        focus:ring-primary-700
 
         disabled:cursor-not-allowed
-        disabled:bg-[#CCCCCC]
+        disabled:bg-primary-200
+        disabled:text-primary-100
       `}
     />
   );
